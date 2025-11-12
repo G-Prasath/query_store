@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1762948789833,
+    "timestamp": "2025-11-12T11:59:49.833Z",
+    "name": "guru",
+    "email": "guru@gmail.com",
+    "phone": "123456789",
+    "message": "Hello"
+  },
+  {
+    "id": 1762948816132,
+    "timestamp": "2025-11-12T12:00:16.132Z",
+    "name": "prasath",
+    "email": "prasath@gmail.com",
+    "phone": "123456789",
+    "message": "Hello"
+  },
+  {
+    "id": 1762948901667,
+    "timestamp": "2025-11-12T12:01:41.667Z",
+    "name": "ram",
+    "email": "ram@gmail.com",
+    "phone": "123456789",
+    "message": "Hello"
+  }
+]

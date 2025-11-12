@@ -81,6 +81,23 @@ app.post('/data', async (req, res) => {
   }
 });
 
+// Optional: GET endpoint to view all saved mail data
+app.get('/mails', (req, res) => {
+  try {
+    const mailData = readDataFromFile();
+    res.status(200).json({
+      success: true,
+      count: mailData.length,
+      data: mailData
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: 'Error reading mail data'
+    });
+  }
+});
+
 
 app.listen(3000, (req, res) => {
   console.log("Server running on : 3000");
